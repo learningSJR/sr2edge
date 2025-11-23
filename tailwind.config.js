@@ -8,7 +8,17 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        zoomReset: {
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(1.05)" },
+        },
+      },
+      animation: {
+        zoomReset: "zoomReset 6s linear forwards",
+      },
+    },
   },
   plugins: [],
 };
