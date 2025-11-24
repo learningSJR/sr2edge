@@ -26,7 +26,7 @@ function TopBar() {
 
         <div className="items-center justify-center hidden gap-2 md:flex text-emerald-300">
           <Megaphone size={16} />
-          <span>Summer sale discount 50% off.</span>
+          <span>Winter sale discount 50% off.</span>
         </div>
 
         <div className="flex items-center justify-center gap-5 md:justify-end">
@@ -62,12 +62,12 @@ function NavBar() {
       <div className="flex items-center justify-between h-16 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
-          <div className="grid w-8 h-8 font-bold text-white rounded-lg bg-emerald-600 place-items-center">
-            SR
+          <div className="grid w-16 h-14 place-items-center">
+            <img src="/sr2edge-web-logo.svg" alt="SR2Edge Logo" />
           </div>
-          <span className="text-xl font-bold text-emerald-700">
-            SR<sup className="text-xs align-super">2</sup> Edge
-          </span>
+          <div className="grid h-16 w-36 place-items-center">
+            <img src="/sr2edge-text-logo.svg" alt="SR2Edge Logo" />
+          </div>
         </a>
 
         {/* Desktop menu */}

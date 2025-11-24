@@ -6,12 +6,12 @@ function Footer() {
       <div className="grid grid-cols-1 gap-8 px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-2">
-            <div className="grid w-8 h-8 font-bold text-white rounded-lg bg-emerald-600 place-items-center">
-              SR
+            <div className="grid w-12 h-14 place-items-center">
+              <img src="/sr2edge-web-logo.svg" alt="SR2Edge Logo" />
             </div>
-            <h2 className="text-2xl font-bold text-emerald-400">
-              SR<span className="text-xs align-super">2</span>Edge
-            </h2>
+            <div className="grid h-12 w-28 place-items-center">
+              <img src="/sr2edge-text-logo.svg" alt="SR2Edge Logo" />
+            </div>
           </div>
           <p className="mt-3 text-sm leading-relaxed text-gray-400">
             We promise we’ll get back to you promptly – your gifting needs are
