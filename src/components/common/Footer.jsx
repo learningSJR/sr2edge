@@ -76,7 +76,7 @@ function Footer() {
             <li> (+91)-044 - 42658359</li>
             <li> Mon – Fri: 9:00am - 20:00pm</li>
             <li> Sat: 11:00 – 15:00</li>
-            <li> info@sr2edge.com</li>
+            <li> sr2edge@gmail.com</li>
           </ul>
         </div>
       </div>
